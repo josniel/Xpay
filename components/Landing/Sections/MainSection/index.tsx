@@ -12,7 +12,7 @@ import ChevronSwiper from "@/components/UI/Icons/ChevronSwiper";
 const MainSection = ({ className = "" }: { className?: string }) => {
   return (
     <div
-      className={`relative pt-[120px] px-[94px] max-md:h-[calc(100vh-112px)] max-md:flex max-md:flex-col ${className}`}
+      className={`relative pt-[120px] lg:pb-[120px] px-[94px] max-md:h-[calc(100vh-112px)] max-md:flex max-md:flex-col ${className}`}
     >
       {<div className="absolute top-0 left-0 right-0 bottom-0 z-[-9] select-none pointer-events-none max-3xl:hidden max-lg:hidden">
         <Image
