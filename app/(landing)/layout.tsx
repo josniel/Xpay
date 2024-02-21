@@ -10,7 +10,7 @@ import Footer from '@/components/Common/Layout/Footer'
 import MobileHeader from '@/components/Common/Layout/Header/Mobile'
 
 export const metadata: Metadata = {
-  title: 'XPAY Finance',
+  title: 'XPay - Where Cross-Border Payments Meet With Blockchain',
   description: 'Finance App',
 }
 
