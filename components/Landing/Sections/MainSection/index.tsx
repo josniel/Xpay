@@ -12,7 +12,7 @@ import ChevronSwiper from "@/components/UI/Icons/ChevronSwiper";
 const MainSection = ({ className = "" }: { className?: string }) => {
   return (
     <div
-      className={`relative pt-[120px] lg:pb-[120px] px-[94px] max-md:h-[calc(100vh-112px)] max-md:flex max-md:flex-col ${className}`}
+      className={`relative pt-[120px] lg:pb-[120px] max-lg:px-[54px] lg:px-[94px] max-md:flex max-md:flex-col ${className}`}
     >
       {<div className="absolute top-0 left-0 right-0 bottom-0 z-[-9] select-none pointer-events-none max-3xl:hidden max-lg:hidden">
         <Image
@@ -51,7 +51,7 @@ const MainSection = ({ className = "" }: { className?: string }) => {
       <div className="container reslative z-s20">
         <div className="flex max-lg:flex-col-reverse justify-between items-center">
           <div className="w-full max-w-[700px] max-lg:text-center">
-            <h1 className="text-2xl md:text-[40px] leading-normal mb-4 max-md:mt-8 [text-wrap:balance]">
+            <h1 className="max-md:text-lg md:text-2xl leading-normal mb-3 max-md:mt-7 [text-wrap:balance]">
               <span className="font-medium">Where Cross-Border Payments </span>
               <span className="font-light">Meet With Blockchain</span>
             </h1>

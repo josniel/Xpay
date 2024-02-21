@@ -69,6 +69,9 @@ const config: Config = {
           "950": "#232a2e",
         },
       },
+      screens: {
+        'xxs': '400px',
+      },
     },
     container: {
       center: true,

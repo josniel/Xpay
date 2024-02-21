@@ -10,9 +10,9 @@ export default function HomePage() {
     <main>
       <MainSection className="mb-[0px]" />
       <Brands className="mb-[0px] md:mb-[0px]" />
-      <Explore className="mb-[79px] md:mb-[84px]" />
-      <LifeCicleStrategy className="mb-[79px] md:mb-[84px]" />
-      <RoadMap className="mb-[80px] md:mb-[10px]" />
+      <Explore className="mb-[0px] md:mb-[0px]" />
+      <LifeCicleStrategy className="mb-[0px] md:mb-[0px]" />
+      <RoadMap className="mb-[0px] md:mb-[0px]" />
       <TakeAction/>
     </main>
   );

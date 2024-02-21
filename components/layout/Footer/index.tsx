@@ -16,11 +16,8 @@ import Xpay from "@/components/UI/Icons/Xpay";
 
 export const FooterLanding = () => {
   return (
-    <footer className="pt-[21px] md:pt-[57px] md:pb-[44px] bg-white bg-opacity-70 relative border-[3px] border-white px-[80px]">
-      <div className="absolute top-0 left-0 right-0 bottom-0 z-10 overflow-hidden select-none pointer-events-none max-3xl:hidden">
-        {/* <div className="absolute w-[329.572px] h-[329.572px] bottom-[221.43px] left-[-229px] border border-purple-500 bg-purple-500 bg-opacity-10 animate-pulse"></div> */}
-        {/* <div className="absolute w-[424px] h-[424px] bottom-[10px] right-[-259px] border border-purple-500 bg-purple-500 bg-opacity-10 animate-pulse"></div> */}
-
+    <footer className="pt-[21px] md:pt-[57px] md:pb-[44px] bg-white bg-opacity-70 relative border-[3px] border-white lg:px-[80px] max-lg:px-[30px]">
+      <div className="max-lg:hidden absolute top-0 left-0 right-0 bottom-0 z-10 overflow-hidden select-none pointer-events-none max-3xl:hidden">
         <Image
           src={spring1}
           width={329.572}
@@ -28,7 +25,6 @@ export const FooterLanding = () => {
           alt="Spring 1"
           className="absolute w-[329.572px] h-[329.572px] bottom-[221.43px] left-[-229px] -rotate-90"
         />
-
         <Image
           src={spring2}
           width={424}

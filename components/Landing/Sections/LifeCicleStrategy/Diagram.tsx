@@ -93,7 +93,7 @@ const Diagram = () => {
           showSwipe ? "cursor-grab active:cursor-grabbing" : ""
         }`}
       >
-        <LifeCicle className="max-md:h-[496px] max-md:w-[911px] mx-auto" width={isDesktop ? "1617" : "1050"} height={isDesktop ? "714" : "464"} />
+        <LifeCicle className="max-md:h-[496px] max-md:w-[911px] mx-auto" width={isDesktop ? "1617" : "735"} height={isDesktop ? "714" : "325"} />
       </div>
 
       {/* {showSwipe && (

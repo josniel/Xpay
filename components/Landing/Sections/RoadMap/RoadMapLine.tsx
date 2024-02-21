@@ -86,7 +86,7 @@ const Diagram = () => {
           showSwipe ? "cursor-grab active:cursor-grabbing" : ""
         }`}
       >
-        <XpayRoadMap className="max-md:h-[496px] max-md:w-[911px] mx-auto" width={isDesktop ? "1490" : "968"} height={isDesktop ? "663" : "432"} />
+        <XpayRoadMap className="max-md:h-[496px] mt-[-100px] max-md:w-[911px] mx-auto" width={isDesktop ? "1490" : "968"} height={isDesktop ? "663" : "432"} />
       </div>
 
       {/* {showSwipe && (
