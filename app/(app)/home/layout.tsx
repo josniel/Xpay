@@ -4,7 +4,7 @@ import { HeaderLanding } from "@/components/layout/Header";
 import { FooterLanding } from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "Xpay Finance",
+  title: "XPay - Where Cross-Border Payments Meet With Blockchain",
   description:
     "Finance App",
 };
