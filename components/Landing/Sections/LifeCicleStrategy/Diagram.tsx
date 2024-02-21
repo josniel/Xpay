@@ -89,14 +89,14 @@ const Diagram = () => {
         onMouseLeave={onMouseEnd}
         onMouseUp={onMouseEnd}
         onMouseMove={onMouseMove}
-        className={`scrollbar-hide mx-auto w-full max-w-[1698px] overflow-x-auto px-5 ${
+        className={`scrollbar-hide mx-auto w-full max-w-[1698px] overflow-x-auto px-5 lg:flex lg:justify-center ${
           showSwipe ? "cursor-grab active:cursor-grabbing" : ""
         }`}
       >
         <LifeCicle className="max-md:h-[496px] max-md:w-[911px] mx-auto" width={isDesktop ? "1617" : "1050"} height={isDesktop ? "714" : "464"} />
       </div>
 
-      {showSwipe && (
+      {/* {showSwipe && (
         <div className="flex gap-4 items-center justify-center mt-[43px] animate-swipe-slow">
           <span className="text-[18px] leading-normal animate-swipe-slow-icon-diagram-left">
             <DoubleChevronLeft />
@@ -108,7 +108,7 @@ const Diagram = () => {
             <DoubleChevronLeft />
           </span>
         </div>
-      )}
+      )} */}
     </div>
   );
 };

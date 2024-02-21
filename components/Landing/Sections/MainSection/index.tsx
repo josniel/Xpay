@@ -52,7 +52,7 @@ const MainSection = ({ className = "" }: { className?: string }) => {
         <div className="flex max-lg:flex-col-reverse justify-between items-center">
           <div className="w-full max-w-[700px] max-lg:text-center">
             <h1 className="text-2xl md:text-[40px] leading-normal mb-4 max-md:mt-8 [text-wrap:balance]">
-              <span className="font-medium">Where Cross-Border Payments</span>
+              <span className="font-medium">Where Cross-Border Payments </span>
               <span className="font-light">Meet With Blockchain</span>
             </h1>
 
@@ -90,14 +90,14 @@ const MainSection = ({ className = "" }: { className?: string }) => {
         </div>
       </div>
 
-      <div className="h-[79px] mt-auto pt-2.5 flex-shrink-0">
+      {/* <div className="h-[79px] mt-auto pt-2.5 flex-shrink-0">
         <div className="btn flex-col text-sm leading-normal font-medium md:hidden !p-0 animate-swipe-slow pointer-events-none">
           <span>Swipe</span>
           <div className="text-[30px] animate-swipe-slow-icon">
             <ChevronSwiper />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

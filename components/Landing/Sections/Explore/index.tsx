@@ -63,7 +63,7 @@ const Explore = ({ className = "" }: { className?: string }) => {
         <h2 className="text-[20px] md:text-[34px] font-light leading-normal md:leading-[55px] text-center mb-4">
           <span className="font-medium">Explore </span> xPAY
         </h2>
-        <p className="text-justify text-xs md:text-sm font-normal leading-normal">
+        <p className="text-center text-xs md:text-sm font-normal leading-normal">
           XPAY provides a wide range of investment opportunities, catering to the diverse needs of investors and democratizing access to investments that were previously inaccessible to the majority. XPAY delivers a user-friendly, secure, and regulatory-compliant product.
         </p>
       </div>

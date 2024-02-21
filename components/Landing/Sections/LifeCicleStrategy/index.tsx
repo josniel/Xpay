@@ -60,7 +60,7 @@ const LifeCicleStrategy = ({ className = "" }: { className?: string }) => {
         <h2 className="text-[20px] md:text-[34px] font-light leading-normal md:leading-[55px] text-center mb-4">
           Cross-Border <span className="font-medium"> Payments Pre-Funding</span>
         </h2>
-        <p className="text-justify text-xs md:text-sm font-normal leading-normal">
+        <p className="text-center text-xs md:text-sm font-normal leading-normal">
           The current pre-funding model used in SWIFT cross-border payments results in delays, increased expenses, and exposes Money Services Businesses to FX risks. XPAY offers Liquidity as a Service and Just-In-Time liquidity, enabling MSBs to adapt swiftly to market demands without pre-funding reliance.
         </p>
         <h2 className="text-[20px] md:text-[34px] font-light leading-normal md:leading-[55px] text-center mb-4 mt-[60px]">

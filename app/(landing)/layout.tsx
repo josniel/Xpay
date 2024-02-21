@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="./favicon 3.svg" />
       </Head>
       <body suppressHydrationWarning={true} className={`${poppins.className} relative`}>
         {/* <Header />{} */}

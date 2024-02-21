@@ -53,27 +53,20 @@ const Diagram = () => {
 
   return (
     <div className="text-bunker-950">
-      {/* <div className="absolute top-0 left-0 right-0 bottom-0 z-[-10] overflow-hidden select-none pointer-events-none max-3xl:hidden">
-        <Image
-          src={cube2}
-          alt="Spring 2"
-          className="absolute h-[624px] bottom-[20px] left-[-30px] rotate-[0deg]"
-        />
-      </div> */}
       <div
         ref={scrollRef}
         onMouseDown={onMouseDown}
         onMouseLeave={onMouseEnd}
         onMouseUp={onMouseEnd}
         onMouseMove={onMouseMove}
-        className={`scrollbar-hide mx-auto w-full max-w-[1698px] overflow-x-auto px-5 ${
+        className={`scrollbar-hide mx-auto w-full max-w-[1698px] overflow-x-auto px-5 lg:flex lg:justify-center${
           showSwipe ? "cursor-grab active:cursor-grabbing" : ""
         }`}
       >
         <XpayDiagram className="max-md:h-[496px] max-md:w-[911px]" />
       </div>
 
-      {showSwipe && (
+      {/* {showSwipe && (
         <div className="flex gap-4 items-center justify-center mt-[43px] animate-swipe-slow">
           <span className="text-[18px] leading-normal animate-swipe-slow-icon-diagram-left">
             <DoubleChevronLeft />
@@ -85,7 +78,7 @@ const Diagram = () => {
             <DoubleChevronLeft />
           </span>
         </div>
-      )}
+      )} */}
     </div>
   );
 };
