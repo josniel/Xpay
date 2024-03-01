@@ -5,6 +5,7 @@ import cube3 from "/public/static/images/decorators/cube 3.png";
 import cube2 from "/public/static/images/decorators/cube2.png";
 import decorator1 from "/public/static/images/decorators/decorator1.png";
 import fluid3 from "/public/static/images/decorators/fluid3.png";
+import finger from "/public/static/images/decorators/finger.svg";
 import React, { useEffect, useState } from 'react';
 
 // Función para saber el tamaño de la pantalla
@@ -64,10 +65,17 @@ const Explore = ({ className = "" }: { className?: string }) => {
           <span className="font-medium">Explore </span> xPAY
         </h2>
         <p className="text-center text-xs md:text-sm font-normal leading-normal">
-          XPAY provides a wide range of investment opportunities, catering to the diverse needs of investors and democratizing access to investments that were previously inaccessible to the majority. XPAY delivers a user-friendly, secure, and regulatory-compliant product.
+          XPAY represents a cutting-edge platform, pioneering in the field of Real-World yield generation. It is designed to revolutionize the on-chain yield environment, granting access to lucrative investment opportunities that were once inaccessible to the average investor.
         </p>
       </div>
       <Diagram/>
+      <div className="flex justify-center md:hidden mt-4">
+        <Image
+          src={finger}
+          alt="finger"
+          width={40}
+        />
+      </div>
     </section>
   );
 };

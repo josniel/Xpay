@@ -2,6 +2,8 @@ import { useEffect, useState, useRef } from "react";
 
 import DoubleChevronLeft from "@/components/UI/Icons/DoubleChevronLeft";
 import LifeCicle from "./LifeCicle";
+import animationDiagram from "/public/static/images/animation/XpayDiagram.json";
+import Lottie from 'react-lottie';
 
 import Image from "next/image";
 import cube2 from "/public/static/images/decorators/cube2.png";
@@ -38,6 +40,14 @@ function useMediaQuery(query:any) {
 }
 
 const Diagram = () => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationDiagram,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  };
   const isDesktop = useMediaQuery('(min-width: 1024px)'); // Estado para saber el tamaño de la pantalla
   const { innerWidth } = WindowSize();
   const [showSwipe, setShowSwipe] = useState<boolean>(false);
@@ -93,7 +103,8 @@ const Diagram = () => {
           showSwipe ? "cursor-grab active:cursor-grabbing" : ""
         }`}
       >
-        <LifeCicle className="max-md:h-[496px] max-md:w-[911px] mx-auto" width={isDesktop ? "1617" : "735"} height={isDesktop ? "714" : "325"} />
+        <Lottie options={defaultOptions} className="max-md:h-[496px] max-md:w-[911px] mx-auto" width={isDesktop ? 1617 : 735} height={isDesktop ? 714 : 325} />
+        {/* <LifeCicle className="max-md:h-[496px] max-md:w-[911px] mx-auto" width={isDesktop ? "1617" : "735"} height={isDesktop ? "714" : "325"} /> */}
       </div>
 
       {/* {showSwipe && (

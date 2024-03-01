@@ -4,6 +4,7 @@ import Image from "next/image";
 import decorator2 from "/public/static/images/decorators/decorator2.png";
 import decorator3 from "/public/static/images/decorators/decorator3.png";
 import decorator6 from "/public/static/images/decorators/decorator6.png";
+import finger from "/public/static/images/decorators/finger.svg";
 import React, { useEffect, useState } from 'react';
 
 // Función para saber el tamaño de la pantalla
@@ -68,6 +69,13 @@ const LifeCicleStrategy = ({ className = "" }: { className?: string }) => {
         </h2>
       </div>
       <Diagram />
+      <div className="flex justify-center sm:hidden mt-4">
+        <Image
+          src={finger}
+          alt="finger"
+          width={40}
+        />
+      </div>
     </section>
   );
 };

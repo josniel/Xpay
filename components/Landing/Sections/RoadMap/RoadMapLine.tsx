@@ -2,6 +2,7 @@ import { useEffect, useState, useRef } from "react";
 
 import DoubleChevronLeft from "@/components/UI/Icons/DoubleChevronLeft";
 import XpayRoadMap from "./XpayRoadMap";
+import XpayRoadMapMobile from "./XpayRoadMapMobile";
 
 import Image from "next/image";
 import cube2 from "/public/static/images/decorators/cube2.png";
@@ -39,6 +40,7 @@ function useMediaQuery(query:any) {
 
 const Diagram = () => {
   const isDesktop = useMediaQuery('(min-width: 1024px)'); // Estado para saber el tamaño de la pantalla
+  const isMobile = useMediaQuery('(max-width: 768px)'); // Estado para saber el tamaño de la pantalla
   const { innerWidth } = WindowSize();
   const [showSwipe, setShowSwipe] = useState<boolean>(false);
   const scrollRef = useRef<any>(null);
@@ -86,7 +88,15 @@ const Diagram = () => {
           showSwipe ? "cursor-grab active:cursor-grabbing" : ""
         }`}
       >
-        <XpayRoadMap className="max-md:h-[496px] mt-[-100px] max-md:w-[911px] mx-auto" width={isDesktop ? "1490" : "968"} height={isDesktop ? "663" : "432"} />
+        {
+          isMobile ? (
+            <div className="flex justify-center">
+              <XpayRoadMapMobile className="mt-[0px] max-md:w-[911px] mx-auto" />
+            </div>
+          ) : (
+            <XpayRoadMap className="max-md:h-[696px] mt-[0px] max-md:w-[911px] mx-auto" width={isDesktop ? "1496" : "897"} height={isDesktop ? "765" : "459"} />
+          )
+        }
       </div>
 
       {/* {showSwipe && (
