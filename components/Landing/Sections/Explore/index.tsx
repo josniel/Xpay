@@ -4,7 +4,7 @@ import Image from "next/image";
 import cube3 from "/public/static/images/decorators/cube 3.png";
 import cube2 from "/public/static/images/decorators/cube2.png";
 import decorator1 from "/public/static/images/decorators/decorator1.png";
-import fluid3 from "/public/static/images/decorators/fluid3.png";
+import fluid3 from "/public/static/images/decorators/fluid3.svg";
 import finger from "/public/static/images/decorators/finger.svg";
 import React, { useEffect, useState } from 'react';
 
@@ -56,7 +56,7 @@ const Explore = ({ className = "" }: { className?: string }) => {
         <Image
           src={fluid3}
           alt="Spring 2"
-          className="absolute w-[530px] top-[-210px] left-[-330px] z-[-10]"
+          className="absolute w-[180px] top-[-240px] left-[-330px] max-sm:left-[-0px] z-[-10]"
         />
       </div>
       )}

@@ -71,6 +71,7 @@ const config: Config = {
       },
       screens: {
         'xxs': '400px',
+        'xl1': '1450px',
       },
     },
     container: {

@@ -4,9 +4,11 @@ import DKK from "/public/static/images/brands/dkk.png";
 import Freemarket from "/public/static/images/brands/freemarket.png";
 import MoneySwitch from "/public/static/images/brands/money-switch.png";
 import SmartwaySystem from "/public/static/images/brands/smartway-system.png";
+import Axiym from "/public/static/images/brands/axiym.png";
+import Polytrade from "/public/static/images/brands/polytrade.png";
 
 export const brands = [
-    {
+    /* {
         name: "AZA FINANCE",
         image: AZA,
     },
@@ -29,5 +31,13 @@ export const brands = [
     {
         name: "Smartway System",
         image: SmartwaySystem,
+    }, */
+    {
+        name: "Polytrade",
+        image: Polytrade,
+    },
+    {
+        name: "Axiym",
+        image: Axiym,
     },
 ];

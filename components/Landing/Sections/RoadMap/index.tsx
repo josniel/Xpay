@@ -7,7 +7,7 @@ import RoadMapLine from "./RoadMapLine";
 
 const RoadMap = ({ className = "" }: { className?: string }) => {
   return (
-    <section className={`${className} pt-[100px]`}>
+    <section className={`${className} pt-[100px] max-md:bg-[#DBE2E9] max-md:my-[30px]`}>
       <div className="relative top-0 left-0 right-0 bottom-0 z-[-10] max-lg:hidden">
         <Image
           src={decorator2}

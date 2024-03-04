@@ -35,9 +35,9 @@ const Brands = ({ className = "" }: { className?: string }) => {
   const sliderBrands = [...brands, ...brands]
 
   return (
-    <div className={`border-b-4 border-mystic-100 pb-9 md:pb-[60px] ${className}`}>
+    <div className={`pb-9 md:pb-[60px] ${className}`}>
       {
-        isDesktop ? (<Swiper
+        /* isDesktop ? (<Swiper
           className="max-lg:hidden max-w-[1589px] px-5 mx-auto mt-[71px] py-auto flex gap-[600px] justify-center items-center"
           slidesPerView={6}
           direction="horizontal"
@@ -50,10 +50,10 @@ const Brands = ({ className = "" }: { className?: string }) => {
           }}
           breakpoints={{
             1025: {
-              slidesPerView: 5,
+              slidesPerView: 2,
             },
             1489: {
-              slidesPerView: 6,
+              slidesPerView: 2,
             },
           }}
           modules={[Autoplay]}
@@ -73,7 +73,16 @@ const Brands = ({ className = "" }: { className?: string }) => {
               <Image src={brand.image} alt={brand.name} title={brand.name} />
             </div>
           ))}
-        </div>)
+        </div>) */
+        <div
+          className="max-w-[1489px] px-5 mx-auto pt-[71px] flex gap-[70px] justify-center items-center max-2xl:flex-wrap max-md:gap-[38px] max-sm:flex-col"
+          >
+          {brands.map((brand, i) => (
+            <div key={i} className="max-sm:max-h-[50px] max-sm:object-contain">
+              <Image src={brand.image} alt={brand.name} title={brand.name} className="max-lg:w-[160px]"/>
+            </div>
+          ))}
+        </div>
       }
     </div>
   );
