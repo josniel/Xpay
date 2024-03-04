@@ -34,7 +34,7 @@ export const FooterLanding = () => {
         />
       </div>
 
-      <div className="container relative z-10">
+      <div className="container relative z-9">
         <div className="flex max-md:flex-col max-md:items-center md:justify-between mb-[26px] md:mb-[70px] max-xxs:w-auto max-sm:w-[305px] max-sm:mx-auto">
           <div className="md:max-w-[250px] flex flex-col max-md:items-center max-md:text-center gap-2 md:gap-4 max-md:mb-8">
             <LogoFooter />
