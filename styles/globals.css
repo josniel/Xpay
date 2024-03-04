@@ -44,7 +44,7 @@ html {
 }
 
 body {
-  @apply bg-[#EEF1F3] text-navy-blue-900;
+  @apply bg-[#EEF1F3] text-[#14191D];
 }
 
 .btn {

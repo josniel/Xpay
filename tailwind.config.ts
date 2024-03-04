@@ -68,6 +68,7 @@ const config: Config = {
           "900": "#343f46",
           "950": "#232a2e",
         },
+        "white-header": 'rgba(255, 255, 255, 0.70)'
       },
       screens: {
         'xxs': '400px',

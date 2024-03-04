@@ -56,7 +56,7 @@ const MainSection = ({ className = "" }: { className?: string }) => {
       <div className='absolute top-0 left-0 right-0 bottom-0 overflow-hidden mix-blend-darken'>
         <Globe classname="absolute max-lg:w-[450px] max-lg:h-[450px] max-sm:w-[400px] max-sm:h-[400px] max-lg:top-[-100px] max-lg:right-[-100px] xl1:w-[900px] xl1:h-[900px] xl:w-[700px] xl:h-[700px] lg:w-[600px] lg:h-[600px] lg:top-[-180px] xl1:right-[-150px] lg:right-[-100px]"/>
       </div>
-      <div className="absolute top-[-119px] left-0 right-0 bottom-[-500px] z-10 overflow-hidden pointer-events-none">
+      <div className="absolute top-[-113px] left-0 right-0 bottom-[-500px] z-10 overflow-hidden pointer-events-none">
         <div className="container absolute top-[119px] left-0 right-0 bottom-0 z-10">
           <div className="absolute w-[163px] h-[663px] rotate-[77.809deg] rounded-[663px] bg-main-header-decorator-1 blur-[54.4px] left-[582px] top-[-296px]"></div>
           <div className="absolute w-[163px] h-[663px] rotate-[6.446deg] rounded-[663px] bg-main-header-decorator-1 blur-[54.4px] left-[-145px] top-[118px]"></div>

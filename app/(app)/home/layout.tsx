@@ -14,7 +14,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <html lang="en" className="antialiased">
       <body>
         <HeaderLanding />
-        <div className="pt-[74px] md:pt-[119px]">{children}</div>
+        <div className="pt-[74px] md:pt-[113px]">{children}</div>
         <FooterLanding />
       </body>
     </html>
